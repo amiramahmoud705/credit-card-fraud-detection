@@ -1,5 +1,6 @@
 # credit-card-fraud-detection
 Kaggle Dataset - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 This project tackles a classic and critical real-world problem in the finance industry using machine learning. The primary goal was to build a predictive model that can accurately identify fraudulent credit card transactions amidst a vast majority of legitimate ones.
 
 The Core Challenge: The dataset is highly imbalanced; only a very small fraction (e.g., 0.17%) of transactions are fraudulent. A naive model that simply predicts "not fraud" for every transaction would be over 99% accurate but completely useless. Therefore, the key challenge was to correctly identify as many fraud cases as possible (maximize recall) while maintaining high precision to avoid too many false alarms.
@@ -23,10 +24,6 @@ I split the data into training and testing sets to evaluate performance fairly.
 I trained and compared multiple algorithms, including:
 
 Logistic Regression (a strong baseline for classification)
-
-Random Forest Classifier (robust and handles complex relationships well)
-
-XGBoost Classifier (a powerful gradient boosting algorithm often used for winning Kaggle competitions)
 
 ## Evaluation and Results:
 
